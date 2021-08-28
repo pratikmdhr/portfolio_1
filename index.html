@@ -14,6 +14,11 @@
       src="https://kit.fontawesome.com/41298f9aef.js"
       crossorigin="anonymous"
     ></script>
+    <!-- <link
+      rel="stylesheet"
+      href="css/mobile.css"
+      media="screen and (max-width: 375px)"
+    /> -->
     <link rel="stylesheet" href="css/main.css" />
     <title>Pratik Manandhar</title>
   </head>
@@ -29,7 +34,7 @@
             <ul>
               <li><a href="#home">Home</a></li>
               <li><a href="#about">About</a></li>
-              <li><a href="#skills">Skills</a></li>
+              <!-- <li><a href="#skills">Skills</a></li> -->
               <li><a href="#projects">Projects</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
@@ -40,12 +45,14 @@
         <h1>Hi! I'm Pratik</h1>
         <p>I'm a Web Developer based in Toronto</p>
       </div>
-      <a href="#about"><i class="fas fa-chevron-down"></i></a>
+      <div class="chevron">
+        <a href="#about"><i class="fas fa-chevron-down fa-2x"></i></a>
+      </div>
     </header>
 
     <section id="about">
       <div class="container">
-        <img src="/images/Xmen.jpg" alt="" />
+        <img src="/dist/images/Xmen.jpg" alt="" />
         <div class="about-content">
           <div class="text-content">
             <h2>About Me</h2>
@@ -70,10 +77,11 @@
             <a href="#about"><i class="fas fa-envelope fa-2x"></i></a>
             <a href="#about"><i class="fab fa-github fa-2x"></i></a>
           </div>
-
-          <a href="#home" class="btn bg-dark1"
-            >Resume <i class="fas fa-download"></i
-          ></a>
+          <div class="resume">
+            <a href="#home" class="btn bg-dark1"
+              >Resume <i class="fas fa-download"></i
+            ></a>
+          </div>
         </div>
       </div>
     </section>
@@ -137,7 +145,7 @@
         <h2>Projects</h2>
         <div class="grid-projects">
           <div class="grid-item">
-            <img src="/images/projects/1.jpg" alt="" />
+            <img src="/dist/images/projects/1.jpg" alt="" />
             <h4>HTML5 | CSS | JavaScript</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
@@ -149,7 +157,7 @@
             <a href="#" class="btn bg-dark1">Live Project</a>
           </div>
           <div class="grid-item">
-            <img src="/images/projects/2.jpg" alt="" />
+            <img src="/dist/images/projects/2.jpg" alt="" />
             <h4>HTML5 | CSS | JavaScript</h4>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -160,7 +168,7 @@
             <a href="#" class="btn bg-dark1">Live Project</a>
           </div>
           <div class="grid-item">
-            <img src="/images/projects/3.jpg" alt="" />
+            <img src="/dist/images/projects/3.jpg" alt="" />
             <h4>HTML5 | CSS | JavaScript | React</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
